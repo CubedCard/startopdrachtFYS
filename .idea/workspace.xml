@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="footer added. body margin set to 0">
-      <change afterPath="$PROJECT_DIR$/.idea/assets/img/code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/assets/img/corendon_logo.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assets/html/hobbies.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assets/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/main.css" afterDir="false" />
+    <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="welcome page">
+      <change beforePath="$PROJECT_DIR$/.idea/assets/style/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -81,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631102247161</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="welcome page">
+      <created>1631103817611</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631103817611</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer added. body margin set to 0" />
     <MESSAGE value="about_jd.html done" />
-    <option name="LAST_COMMIT_MESSAGE" value="about_jd.html done" />
+    <MESSAGE value="welcome page" />
+    <option name="LAST_COMMIT_MESSAGE" value="welcome page" />
   </component>
 </project>
