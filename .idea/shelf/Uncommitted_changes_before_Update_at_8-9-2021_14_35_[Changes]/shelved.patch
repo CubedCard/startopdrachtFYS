@@ -1,0 +1,142 @@
+Index: .idea/assets/style/main.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>html, body {\r\n  font-family: Menlo;\r\n  margin: 0px;\r\n}\r\n\r\n.photo-jd {\r\n  object-fit: cover;\r\n  width: 500px;\r\n  height: 500px;\r\n}\r\n\r\n.text-jd {\r\n  width: 50%;\r\n}\r\n\r\n.container {\r\n  padding: 10px;\r\n  margin: 10px;\r\n  display: flex;\r\n  flex-direction: column;\r\n}\r\n\r\n.block {\r\n  display: flex;\r\n  margin-bottom: 30px;\r\n}\r\n\r\nfooter {\r\n  text-align: center;\r\n  color: white;\r\n  background: red;\r\n  margin: 0px;\r\n  padding: 20px;\r\n  position: fixed;\r\n  width: 100%;\r\n  bottom: 0px;\r\n}\r\n\r\n@media only screen and (max-width: 1000px) {\r\n  .block {\r\n    flex-direction: column;\r\n  }\r\n  .text-jd {\r\n    width: 100%;\r\n  }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/assets/style/main.css b/.idea/assets/style/main.css
+--- a/.idea/assets/style/main.css	(revision 46ca9166bf0e5a563634720e1adca1d5227d3d8d)
++++ b/.idea/assets/style/main.css	(date 1631104151171)
+@@ -13,6 +13,18 @@
+   width: 50%;
+ }
+ 
++.photo-ydv
++{
++  object-fit: cover;
++  width: 500px;
++  height: 500px;
++}
++
++.text-ydv
++{
++  width: 50%;
++}
++
+ .container {
+   padding: 10px;
+   margin: 10px;
+Index: .idea/assets/html/about_ydv.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <title>Over de mentoren van IS107</title>\r\n\r\n    <!--    Load in the stylesheet(s)  -->\r\n    <link href=\"..\\style/main.css\" rel=\"stylesheet\" />\r\n    <link href=\"..\\style/navbar.css\" rel=\"stylesheet\" />\r\n</head>\r\n\r\n<body>\r\n<header>\r\n    <!--    Universal Navbar    -->\r\n    <nav class=\"navbar\">\r\n        <a data-controller=\"home\" href=\"..\\..\\..\\index.html\"><img\r\n                src=\"../img/HvA-transparant-logo.png\" width=\"100px\"\r\n                alt=\"Logo HvA\"></a>\r\n        <button class=\"navbtn\" type=\"button\">Jip</button>\r\n    </nav>\r\n</header>\r\n<footer>\r\n    <p class=\"text-muted mb-0 py-2\">&#9400; 2021 Ya&#235;l & Jip All rights reserved</p>\r\n</footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/assets/html/about_ydv.html b/.idea/assets/html/about_ydv.html
+--- a/.idea/assets/html/about_ydv.html	(revision 46ca9166bf0e5a563634720e1adca1d5227d3d8d)
++++ b/.idea/assets/html/about_ydv.html	(date 1631104468549)
+@@ -13,12 +13,82 @@
+ <header>
+     <!--    Universal Navbar    -->
+     <nav class="navbar">
+-        <a data-controller="home" href="..\..\..\index.html"><img
+-                src="../img/HvA-transparant-logo.png" width="100px"
++        <a data-controller="home"
++                href="..\..\..\index.html"><img
++                src="../img/HvA-transparant-logo.png"
++                width="100px"
+                 alt="Logo HvA"></a>
+         <button class="navbtn" type="button">Jip</button>
+     </nav>
+ </header>
++<div class="container">
++    <h1>Over Yaël</h1>
++    <div class="block">
++        <div>
++            <h3>Over</h3>
++            <p class="text-jd">
++                Ik ben Yaël de Vries. Ik ben 25 jaar en ik zit in mijn tweede
++                jaar Software Engineering aan de HvA. Ik woon in Zaandam,
++                samen met mijn vriendin Asa, die de opleiding Communicatie en
++                Multimedia Design volgt aan de HvA.
++                Naast dat ik student ben, ben ik ook Database Engineer. Ik werk
++                voor een bedrijf genaamd "FormsVision". Dit bedrijf maakt en
++                onderhoudt software voor academische instanties en farma-
++                industrie. Het zorgt er voor dat studies naar nieuwe medicijnen
++                mogelijk gemaakt wordt.
++                Ik heb een grotere broer, een jonger zusje en broertje.
++                Daarnaast heb ik drie huisdieren, één hond en twee katten.
++
++                Ik ben door een programmeer school genaamd "Codam" verliefd
++                geworden op programmeren en daar heb ik kennis gemaakt met
++                de taal C. De moedertaal voor eigenlijk alles wat je
++                nu zo tegen kan komen. Dat is dan ook mijn favoriete taal,
++                maar inmiddels ben ik denk ik beter in Java. Daarnaast kan
++                ik ook Python, HTML en CSS (obviously), C#, C++, Ruby en JS.
++                Eigenlijk kan je met de mentaliteit die nodig is voor
++                programmeren al een heel eind komen in vrijwel alle talen.
++
++                Qua IDE ben ik inmiddels fan geworden van IntelliJ. Maar alleen
++                omdat het heel veel tijd scheelt. Het is voor de "luie"
++                programmeur wat er voor zorgt dat je bijna niet leert om te
++                programmeren omdat alles eigenlijk voor je gedaan wordt.
++                Ik ben sinds 2018 fan van Visual Studio Code, het is prachtig
++                customizable en daarnaast ben ik groot fan van VIM, waar mijn
++                programmeer carrière mee begonnen is. Het lijkt heel hardcore
++                en dat is het ook, het is moeilijk om te leren gebruiken maar
++                wanneer eenmaal gewend werkt het eigenlijk net als Visual
++                Studio Code of IntelliJ. Een van de mooie dingen van VIM vind
++                ik dat het je handen heel erg mooi puur op je keyboard kan
++                laten focussen.
++            </p>
++        </div>
++        <img
++                class="photo-ydv"
++                src="../img/photo-ydv.png"
++                alt="Yaël with siblings"
++        />
++    </div>
++    <div class="block">
++        <div class="text-jd">
++            <h3>Hobbies</h3>
++            <ul>
++                <li>Programmeren</li>
++                <li>Koken (en dat eten)</li>
++                <li>Fitness (zou je niet zeggen)</li>
++                <li>Muziek</li>
++                <li>Gamen</li>
++                <li>Surfen</li>
++                <li>Fotografie</li>
++                <li>Films / Series</li>
++                <li>Auto's</li>
++                <li>Vrienden</li>
++            </ul>
++        </div>
++        <img class="photo-ydv"
++             src="../img/photo-ydvI.png"
++             alt="Yaël with Diesel and Guitar"/>
++    </div>
++</div>
+ <footer>
+     <p class="text-muted mb-0 py-2">&#9400; 2021 Ya&#235;l & Jip All rights reserved</p>
+ </footer>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0d95830d-2691-48b4-906a-cd9e15caa448\" name=\"Changes\" comment=\"footer added. body margin set to 0\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/assets/html/about_ydv.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/assets/html/about_ydv.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/assets/style/main.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/assets/style/main.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/assets/style/navbar.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/assets/style/navbar.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeStyleSettingsInfer\">\r\n    <option name=\"done\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1xr01kCq1QiOIKecYG8nKlGlX7p\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\HvA\\GitLab\\Mentorschap\\startopdrachtFYS\\.idea\\assets\\style\" />\r\n      <recent name=\"G:\\HvA\\GitLab\\Mentorschap\\startopdrachtFYS\\.idea\\assets\\html\" />\r\n      <recent name=\"G:\\HvA\\GitLab\\Mentorschap\\startopdrachtFYS\\.idea\\assets\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0d95830d-2691-48b4-906a-cd9e15caa448\" name=\"Changes\" comment=\"\" />\r\n      <created>1631097687034</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1631097687034</updated>\r\n      <workItem from=\"1631097689384\" duration=\"4981000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"footer added. body margin set to 0\">\r\n      <created>1631102247161</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1631102247161</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"footer added. body margin set to 0\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"footer added. body margin set to 0\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 46ca9166bf0e5a563634720e1adca1d5227d3d8d)
++++ b/.idea/workspace.xml	(date 1631104151240)
+@@ -7,7 +7,6 @@
+     <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="footer added. body margin set to 0">
+       <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/assets/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/main.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/assets/style/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/navbar.css" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
