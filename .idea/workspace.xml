@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="navbar finished">
+    <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="footer added. body margin set to 0">
+      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assets/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assets/style/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -68,7 +77,6 @@
       <option name="presentableId" value="Default" />
       <updated>1631097687034</updated>
       <workItem from="1631097689384" duration="4981000" />
-      <workItem from="1631104891485" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="footer added. body margin set to 0">
       <created>1631102247161</created>
@@ -77,28 +85,7 @@
       <option name="project" value="LOCAL" />
       <updated>1631102247161</updated>
     </task>
-    <task id="LOCAL-00002" summary="welcome page">
-      <created>1631103817611</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1631103817611</updated>
-    </task>
-    <task id="LOCAL-00003" summary="button css">
-      <created>1631104564687</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1631104564687</updated>
-    </task>
-    <task id="LOCAL-00004" summary="navbar finished">
-      <created>1631104717457</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1631104717457</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,9 +106,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer added. body margin set to 0" />
     <MESSAGE value="about_jd.html done" />
-    <MESSAGE value="welcome page" />
-    <MESSAGE value="button css" />
-    <MESSAGE value="navbar finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="navbar finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="about_jd.html done" />
   </component>
 </project>

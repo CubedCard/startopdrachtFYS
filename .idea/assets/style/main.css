@@ -13,6 +13,7 @@ html, body {
   width: 50%;
 }
 
+
 .photo-ydv
 {
   object-fit: cover;
@@ -20,9 +21,9 @@ html, body {
   height: 500px;
 }
 
-.text-ydv
-{
+.text-ydv {
   width: 50%;
+  font-family: "Courier";
 }
 
 .container {
