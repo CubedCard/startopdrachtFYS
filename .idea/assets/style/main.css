@@ -1,0 +1,22 @@
+html {
+  font-family: Menlo;
+}
+
+.photo-jd {
+  object-fit: cover;
+  width: 500px;
+  height: 500px;
+}
+
+.text-jd {
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: flex;
+}
