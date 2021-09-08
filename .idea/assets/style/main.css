@@ -15,12 +15,14 @@ html, body {
 
 .container {
   padding: 10px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .block {
   display: flex;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -31,4 +33,13 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .block {
+    flex-direction: column;
+  }
+  .text-jd {
+    width: 100%;
+  }
 }

@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="">
+    <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="footer added. body margin set to 0">
       <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assets/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +67,14 @@
       <updated>1631097687034</updated>
       <workItem from="1631097689384" duration="3307000" />
     </task>
+    <task id="LOCAL-00001" summary="footer added. body margin set to 0">
+      <created>1631102247161</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1631102247161</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +91,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="footer added. body margin set to 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="footer added. body margin set to 0" />
   </component>
 </project>
