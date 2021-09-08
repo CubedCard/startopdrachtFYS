@@ -25,6 +25,16 @@ html, body {
   margin-bottom: 30px;
 }
 
+.index {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.welcome-image {
+  width: 40%;
+  margin: 80px;
+}
+
 footer {
   text-align: center;
   color: white;
@@ -42,5 +52,11 @@ footer {
   }
   .text-jd {
     width: 100%;
+  }
+  .photo-jd {
+    align-self: center;
+  }
+  .welcome-image {
+    width: 80%;
   }
 }

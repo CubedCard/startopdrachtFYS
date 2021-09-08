@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="footer added. body margin set to 0">
-      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assets/img/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/assets/img/corendon_logo.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assets/html/hobbies.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assets/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assets/style/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -53,6 +58,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea/assets/img" />
       <recent name="G:\HvA\GitLab\Mentorschap\startopdrachtFYS\.idea\assets\style" />
       <recent name="G:\HvA\GitLab\Mentorschap\startopdrachtFYS\.idea\assets\html" />
       <recent name="G:\HvA\GitLab\Mentorschap\startopdrachtFYS\.idea\assets" />
@@ -95,6 +101,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="footer added. body margin set to 0" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer added. body margin set to 0" />
+    <MESSAGE value="about_jd.html done" />
+    <option name="LAST_COMMIT_MESSAGE" value="about_jd.html done" />
   </component>
 </project>
