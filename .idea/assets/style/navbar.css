@@ -1,4 +1,14 @@
-#navbar
+.navbar
 {
+    overflow: hidden;
     background-color: red;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#navbtn
+{
+    background: white;
 }

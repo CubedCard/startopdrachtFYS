@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d95830d-2691-48b4-906a-cd9e15caa448" name="Changes" comment="footer added. body margin set to 0">
-      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_jd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/html/about_ydv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/assets/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assets/style/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assets/style/navbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +66,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631097687034</updated>
-      <workItem from="1631097689384" duration="3307000" />
+      <workItem from="1631097689384" duration="4981000" />
     </task>
     <task id="LOCAL-00001" summary="footer added. body margin set to 0">
       <created>1631102247161</created>

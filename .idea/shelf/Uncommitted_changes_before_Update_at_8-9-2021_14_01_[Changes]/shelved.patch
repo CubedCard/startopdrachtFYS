@@ -1,0 +1,67 @@
+Index: .idea/assets/style/navbar.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>#navbar\r\n{\r\n    background-color: red;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/assets/style/navbar.css b/.idea/assets/style/navbar.css
+--- a/.idea/assets/style/navbar.css	(revision a46819720d02e935677d0dea865e20e5e68814e9)
++++ b/.idea/assets/style/navbar.css	(date 1631102382506)
+@@ -1,4 +1,14 @@
+ #navbar
+ {
++    overflow: hidden;
+     background-color: red;
++    position: fixed;
++    top: 0;
++    left: 0;
++    right: 0;
++}
++
++#navbtn
++{
++    background: white;
+ }
+\ No newline at end of file
+Index: .idea/assets/html/about_ydv.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Over de mentoren van IS107</title>\r\n\r\n    <!--    Load in the stylesheet(s)  -->\r\n    <link href=\"..\\style/main.css\" rel=\"stylesheet\" />\r\n    <link href=\"..\\style/navbar.css\" rel=\"stylesheet\" />\r\n</head>\r\n\r\n<body>\r\n<header>\r\n    <!--    Universal Navbar    -->\r\n    <nav id=\"navbar\">\r\n        <a data-controller=\"home\" href=\"#\"><img src=\"../img/HvA-transparant-logo.png\" width=\"80px\" alt=\"Logo HvA\"></a>\r\n    </nav>\r\n</header>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/assets/html/about_ydv.html b/.idea/assets/html/about_ydv.html
+--- a/.idea/assets/html/about_ydv.html	(revision a46819720d02e935677d0dea865e20e5e68814e9)
++++ b/.idea/assets/html/about_ydv.html	(date 1631102329060)
+@@ -14,7 +14,10 @@
+ <header>
+     <!--    Universal Navbar    -->
+     <nav id="navbar">
+-        <a data-controller="home" href="#"><img src="../img/HvA-transparant-logo.png" width="80px" alt="Logo HvA"></a>
++        <a data-controller="home" id="navlogo" href="..\..\..\index.html"><img
++                src="../img/HvA-transparant-logo.png" width="100px"
++                alt="Logo HvA"></a>
++        <button class="navbtn" type="button">Jip</button>
+     </nav>
+ </header>
+ </body>
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0d95830d-2691-48b4-906a-cd9e15caa448\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/assets/html/about_ydv.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/assets/html/about_ydv.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/assets/style/navbar.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/assets/style/navbar.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeStyleSettingsInfer\">\r\n    <option name=\"done\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n        <option value=\"CSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectCodeStyleSettingsMigration\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1xr01kCq1QiOIKecYG8nKlGlX7p\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"nodejs_package_manager_path\" value=\"npm\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"G:\\HvA\\GitLab\\Mentorschap\\startopdrachtFYS\\.idea\\assets\\style\" />\r\n      <recent name=\"G:\\HvA\\GitLab\\Mentorschap\\startopdrachtFYS\\.idea\\assets\\html\" />\r\n      <recent name=\"G:\\HvA\\GitLab\\Mentorschap\\startopdrachtFYS\\.idea\\assets\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0d95830d-2691-48b4-906a-cd9e15caa448\" name=\"Changes\" comment=\"\" />\r\n      <created>1631097687034</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1631097687034</updated>\r\n      <workItem from=\"1631097689384\" duration=\"3307000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision a46819720d02e935677d0dea865e20e5e68814e9)
++++ b/.idea/workspace.xml	(date 1631102382579)
+@@ -64,7 +64,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1631097687034</updated>
+-      <workItem from="1631097689384" duration="3307000" />
++      <workItem from="1631097689384" duration="4563000" />
+     </task>
+     <servers />
+   </component>
