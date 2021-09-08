@@ -1,5 +1,6 @@
-html {
+html, body {
   font-family: Menlo;
+  margin: 0px;
 }
 
 .photo-jd {
@@ -13,10 +14,21 @@ html {
 }
 
 .container {
+  padding: 10px;
   display: flex;
   flex-direction: column;
 }
 
 .block {
   display: flex;
+}
+
+footer {
+  text-align: center;
+  background: #eaeaea;
+  margin: 0px;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
 }
